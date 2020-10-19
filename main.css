@@ -1,0 +1,182 @@
+body {
+    background-color: BlanchedAlmond ;
+    font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 0;
+x    margin: 0;
+    -webkit-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+h1 {
+    color: #2BA967;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h2 {
+    color: SpringGreen;
+    text-align: center ;   
+    font-size: 1.8em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.8em;
+    color: #555;
+    margin: 0px 0.5em 0.75em 0px;
+}
+    nav {
+        background-color: SpringGreen;
+                    font-size: 1.7em;
+        letter-spacing: 0.04em;
+        padding: 1.0em 1.0em 0.5em;
+        margin: 1.0em 0 ;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    nav li {
+        display: inline-block;
+        margin: 0;
+    }
+    nav#utilityMenu {
+        float: right;
+        margin: -1.5em 0 0 0;
+        padding: 0.35em;
+        height: 1.3em;
+    }
+    nav#utilityMenu li {
+        padding: 0 0.25em 0 0.2em;
+        vertical-align: middle;    
+    }
+    section#sidebar {
+        background-color: SpringGreem];
+        width: 238rem;
+        float: left;
+        position: relative;
+        display: inline-block;
+    margin: 1.5em 0 3.0em 1.5em;
+        padding: 1.7em 0.5em 2.0em 1.7em;
+       }
+    section #main {
+margin: 0 0 2.0em;
+        padding: 1.5em  0 2.0em 1.5em;
+        display: inline-block;
+       }      
+        section div.photo{
+        float: right;
+        position: relative;
+        width: 500rem;
+        height: 500rem;
+        margin: 0 0.5em 2.0em 0.5em;
+        padding: 1.0em;
+                border: SpringGreen dashed 2rem;
+        border-radius: 0.6em;
+       }
+       section div.photo img.Dan_in_Garden {
+       }
+    .container {
+        display: flex;
+        flex-direction: row;
+flex-start; 
+justify-content: space-around;
+        width: 100%; 
+        height: auto;
+     }
+.divbox {
+    display: flex;
+    flex-direction: column;
+    }
+div.JamType {
+    flex-grow 2 }
+div.phototext {
+flex-grow 1 }
+.img-responsive {
+    width: 300rem;
+    height: auto;
+    flex-grow 2 }    
+    div.photo2img img.Pear_Tree.jpg {
+        width: 300rem;
+        height: auto;
+        flex-grow 2 }    
+    div.photo3img img.Pear_Tree.jpg {
+    width: 300rem;
+    height: auto;
+    flex-grow 2 }    
+        div4.photo4img img.Pear_Tree.jpg {
+            width: 300rem;
+            height: auto;
+            flex-grow 2 }    
+            form {
+                margins: auto;
+                width: 75%;
+            padding: 70px 0;    
+            font-size: 2rem;
+            }
+                                .cs-classes td {
+                padding: 20px;
+                font-size: 20px;
+                width: 20px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+              }
+  footer {
+    position: fixed;
+    font-size: 1.3em;  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: spring-green;
+    text-align: center;
+    }    
+footer ul#menuFooter {
+        display: inline-block;
+        list-style: none;
+        margin: 0 0 0 0.6em;
+        padding: 0;
+    }
+    footer ul li {
+        display: inline-block;
+        padding: 0 0.7em 0 0;
+        margin: 0;
+    }
+    footer ul li::before {
+        content: "| ";
+        padding-right: 0.7em;
+        }
+    div.clear { 
+        clear:both;
+        
+    }
+       footer {
+        background-color: SpringGreen;
+        height: 25rem;
+        font-size: 1.2em;
+              text-align: center;
+        padding: 1.5em 2.0em;
+    }
+    footer ul#menuFooter {
+        display: inline-block;
+        list-style: none;
+        margin: 0 0 0 0.6em;
+        padding: 0;
+    }
+    footer ul li {
+        display: inline-block;
+        padding: 0 0.7em 0 0;
+        margin: 0;
+    }
+    footer ul li::before {
+        content: "| ";
+        padding-right: 0.7em;
+    }
+    div.clear { 
+        clear:both;
+        }
+    
